@@ -10,7 +10,7 @@ const render= () => {
         <div>
             <h1>Visibility Toggle</h1>
                 <button onClick={toggleVisibility}>
-                    {visibility ? 'Hide Details':'Show Details'}            
+                    { visibility ? 'Hide Details':'Show Details'}            
                 </button>
                 { visibility && (
                     <div>
